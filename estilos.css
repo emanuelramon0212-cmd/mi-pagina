@@ -7,4 +7,18 @@
 .slot img {
   width: 200px;            /* tamaño uniforme */
 }
+#video-fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Esto es lo que lo manda hasta atrás */
+    object-fit: cover;
+}
 
+/* Opcional: Para que tu texto se lea bien si el video es muy claro */
+body {
+    color: white; /* Cambia el color de tu texto a blanco para que resalte */
+    font-family: sans-serif;
+}
