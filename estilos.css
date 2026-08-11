@@ -7,7 +7,6 @@
 .slot img {
   width: 200px;            /* tamaño uniforme */
 }
-
 #video-fondo {
     position: fixed;
     right: 0;
@@ -18,8 +17,25 @@
     object-fit: cover;
 }
 
+<<<<<<< HEAD
+#video-fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Esto es lo que lo manda hasta atrás */
+    object-fit: cover;
+}
+
+=======
+>>>>>>> 65ad0fb9ecdc2e2d868a3f0469db6e5a0a9d852b
 /* Opcional: Para que tu texto se lea bien si el video es muy claro */
 body {
     color: white; /* Cambia el color de tu texto a blanco para que resalte */
     font-family: sans-serif;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 65ad0fb9ecdc2e2d868a3f0469db6e5a0a9d852b
