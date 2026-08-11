@@ -39,3 +39,7 @@ body {
 =======
 }
 >>>>>>> 65ad0fb9ecdc2e2d868a3f0469db6e5a0a9d852b
+body {
+    color: white; /* Pone todas las letras en blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Agrega una sombra negra alrededor de las letras */
+}
