@@ -39,14 +39,12 @@ body {
 =======
 }
 >>>>>>> 65ad0fb9ecdc2e2d868a3f0469db6e5a0a9d852b
-/* Esto hace que TODAS las letras, incluyendo h1, h2 y p, se vuelvan blancas y tengan sombra */
+/* Esto obliga a que todo el texto sea blanco */
 body, h1, h2, p {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    font-family: Arial, sans-serif; /* Opcional: le da un tipo de letra más moderno */
+    color: white !important;
+    text-shadow: 2px 2px 8px black !important;
 }
 
-/* El estilo de tu video que ya teníamos */
 #video-fondo {
     position: fixed;
     right: 0;
