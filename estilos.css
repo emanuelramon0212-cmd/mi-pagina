@@ -39,7 +39,20 @@ body {
 =======
 }
 >>>>>>> 65ad0fb9ecdc2e2d868a3f0469db6e5a0a9d852b
-body {
-    color: white; /* Pone todas las letras en blanco */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Agrega una sombra negra alrededor de las letras */
+/* Esto hace que TODAS las letras, incluyendo h1, h2 y p, se vuelvan blancas y tengan sombra */
+body, h1, h2, p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-family: Arial, sans-serif; /* Opcional: le da un tipo de letra más moderno */
+}
+
+/* El estilo de tu video que ya teníamos */
+#video-fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
